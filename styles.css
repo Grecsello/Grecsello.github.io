@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "dyson";
+    src: url("./font/dyson-sans-modern.ttf");
+
+}
+
+header {
+    font-family: 'dyson', sans-serif;
+    margin: 15px;
+    color: crimson;
+    border-color: black;
+    border-width: 5px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ccccff;
+}
+
+h2 {
+    color: #ccccff
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+figcaption{
+    font-size: small;
+}
+
+footer {
+    margin: 20px;
+}
+
+.header {
+    background-color:#7a7aec;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style:none;
+}
+
+.menu-link {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'dyson', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-link:hover{
+    color: beige;
+}
+
+.contact {
+    margin-right: 20px;
+    align-self: center;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'dyson', sans-serif;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.button:hover{
+    color: beige;
+}
+
+/*.cnt {
+    display: flex;
+    margin-inline-start: auto;
+}*/
+.image-wrap-left {
+    float: left;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.image-wrap-right {
+    float: right;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.floating-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* O altre impostazioni per dimensioni e allineamento */
+}
+
+.overlay-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%; /* Regola la posizione verticale del testo */
+    left: 50%; /* Regola la posizione orizzontale del testo */
+    transform: translate(-90%, -200px); /* Centra il testo in base al suo contenitore */
+    text-align: left; /* Allinea il testo al centro */
+    color: white; /* Cambia il colore del testo, se necessario */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
