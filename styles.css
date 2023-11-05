@@ -89,10 +89,7 @@ footer {
     color: beige;
 }
 
-/*.cnt {
-    display: flex;
-    margin-inline-start: auto;
-}*/
+
 .image-wrap-left {
     float: left;
     margin: 10px;
@@ -126,11 +123,11 @@ footer {
 
 .text-over-image {
     position: absolute;
-    top: 50%; /* Regola la posizione verticale del testo */
-    left: 50%; /* Regola la posizione orizzontale del testo */
-    transform: translate(-90%, -200px); /* Centra il testo in base al suo contenitore */
-    text-align: left; /* Allinea il testo al centro */
-    color: white; /* Cambia il colore del testo, se necessario */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-90%, -200px); 
+    text-align: left; 
+    color: white; 
 }
 
 a {
@@ -154,13 +151,13 @@ th {
 }
 
 .models {
-    width: 200px; /* Imposta le dimensioni base */
-    transition: width 0.3s; /* Crea un'animazione fluida */
+    width: 200px;
+    transition: width 0.3s;
   }
   
-  /* Cambia le dimensioni quando l'utente passa sopra all'immagine */
+
   .models:hover {
-    width: 400px; /* Dimensioni più grandi al passaggio del mouse */
+    width: 400px; 
   }
 
 
