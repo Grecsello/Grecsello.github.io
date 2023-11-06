@@ -141,7 +141,9 @@ table {
 }
 
 th, td {
-    border: 1px solid #000;
+    font-family: 'dyson', sans-serif;
+    font-size: 35px;
+    border: 3px solid #7a7aec;
     padding: 8px;
     text-align: left;
 }
