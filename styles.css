@@ -112,7 +112,7 @@ footer {
 
 .image-container {
     position: relative;
-    display: inline-block; /* O altre impostazioni per dimensioni e allineamento */
+    display: inline-block;
 }
 
 .overlay-image {
